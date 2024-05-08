@@ -1,0 +1,67 @@
+export const data = [
+  {
+    id: "field_d029rgjpyodsy9",
+    type: "multiple_choice",
+    version: 1,
+    title: "What condition is the item in?",
+    visibility: "visible",
+    validation: {
+      type: "multiple_choice",
+      required: true,
+    },
+    properties: {
+      type: "multiple_choice",
+    },
+    order: 0,
+    formId: "form_b2ux1cp8u5347i",
+    organizationId: "org_mgjn5ehdntm57x",
+    parentId: null,
+    createdAt: "2024-05-08T15:10:29.116979+00:00",
+    updatedAt: "2024-05-08T15:10:29.116979+00:00",
+    trigger: null,
+    children: [
+      {
+        id: "field_o5ygis7un6aevo",
+        type: "choice",
+        version: 1,
+        title: "Satisfactory",
+        visibility: "visible",
+        validation: {
+          type: "choice",
+        },
+        properties: {
+          type: "choice",
+        },
+        order: 1,
+        formId: "form_b2ux1cp8u5347i",
+        organizationId: "org_mgjn5ehdntm57x",
+        parentId: "field_d029rgjpyodsy9",
+        createdAt: "2024-05-08T15:10:29.116979+00:00",
+        updatedAt: "2024-05-08T15:10:29.116979+00:00",
+        trigger: null,
+        children: [],
+      },
+      {
+        id: "field_ao83olqa02cg5c",
+        type: "choice",
+        version: 1,
+        title: "Defective",
+        visibility: "visible",
+        validation: {
+          type: "choice",
+        },
+        properties: {
+          type: "choice",
+        },
+        order: 2,
+        formId: "form_b2ux1cp8u5347i",
+        organizationId: "org_mgjn5ehdntm57x",
+        parentId: "field_d029rgjpyodsy9",
+        createdAt: "2024-05-08T15:10:29.116979+00:00",
+        updatedAt: "2024-05-08T15:10:29.116979+00:00",
+        trigger: null,
+        children: [],
+      },
+    ],
+  },
+];
